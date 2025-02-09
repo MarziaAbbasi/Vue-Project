@@ -1,0 +1,10 @@
+:root {
+  --custom-green: #bff589;
+}
+.lod-background {
+  background-color: var(--custom-green) !important;
+}
+
+.text-lod-custom {
+  color: var(--custom-green);
+}
