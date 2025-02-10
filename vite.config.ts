@@ -12,7 +12,7 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@': resolve(__dirname, 'src'),  // Ensure alias points to src directory
+      '@': resolve(__dirname, 'src'),
     },
   },
   server: {
@@ -20,8 +20,8 @@ export default defineConfig({
       '/api': {
         target: 'https://app.lincoin.com',
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, ''),
-        secure: false,  // Set to true if the target uses HTTPS
+       rewrite: (path) => path.replace(/^\/api/, ''),
+        secure: true,
       },
     },
   },

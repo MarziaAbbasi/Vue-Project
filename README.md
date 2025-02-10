@@ -50,7 +50,7 @@ npm run build
 
 ## Live Demo
 
-[Live Demo Link](https://vue-project-marzi-abbasi.netlify.app/)
+[Live Demo Link](https://master.d3coe2g8x8bek5.amplifyapp.com/)
 
 ## Type Support for `.vue` Imports in TS
 
